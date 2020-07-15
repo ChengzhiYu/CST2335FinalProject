@@ -3,5 +3,5 @@
     <string name="btn_to_geo">Geo Data</string>
     <string name="btn_to_highlight">Soccer Highlight</string>
     <string name="btn_to_lyrics">Song Lyrics</string>
-    <string name="btn_to_deezer">Dezeer Song</string>
+    <string name="btn_to_deezer">Deezer Song</string>
 </resources>

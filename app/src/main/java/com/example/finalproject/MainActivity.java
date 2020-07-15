@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.example.finalproject.DeezerSong.DeezerSongActivity;
+import com.example.finalproject.GeoData.GeoDataActivity;
+import com.example.finalproject.SoccerHighlight.SoccerHighlightActivity;
+import com.example.finalproject.SongLyrics.SongLyricsActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -33,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button goToDeezerBtn = findViewById(R.id.btn_to_deezer);
-        Intent goToDeezerIntent = new Intent(MainActivity.this, DezeerSongActivity.class);
+        Intent goToDeezerIntent = new Intent(MainActivity.this, DeezerSongActivity.class);
         goToDeezerBtn.setOnClickListener(click -> {
             startActivity(goToDeezerIntent);
         });
