@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DezeerSongActivity"></activity>
-        <activity android:name=".SongLyricsActivity" />
-        <activity android:name=".SoccerHighlightActivity" />
-        <activity android:name=".GeoDataActivity" />
+        <activity android:name=".DeezerSong.DeezerSongActivity"></activity>
+        <activity android:name=".SongLyrics.SongLyricsActivity" />
+        <activity android:name=".SoccerHighlight.SoccerHighlightActivity" />
+        <activity android:name=".GeoData.GeoDataActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
