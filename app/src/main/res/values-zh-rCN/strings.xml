@@ -3,6 +3,7 @@
     <string name="app_name">终极项目</string>
     <string name="btn_to_geo">遨游地球</string>
     <string name="btn_to_highlight">高光时刻</string>
+    <string name="welcome">Welcome to Soccer Highlight</string>
     <string name="btn_to_lyrics">天籁之音</string>
     <string name="btn_to_deezer">灵魂歌手</string>
 </resources>
